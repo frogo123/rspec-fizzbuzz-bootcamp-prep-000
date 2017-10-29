@@ -6,13 +6,13 @@ def fizzbuzz(num)
       return "FizzBuzz"
 
     elsif remainder1 == 0 && remainder2 != 0
-      puts "Fizz"
+      return "Fizz"
 
     elsif remainder1 != 0 && remainder2 == 0
-      puts "Buzz"
+      return "Buzz"
 
     else
       return nil
     end
-
+    
 end
