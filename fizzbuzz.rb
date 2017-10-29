@@ -3,7 +3,7 @@ def fizzbuzz(num)
   remainder2 = num % 5
 
     if remainder1 == 0 && remainder2 == 0
-      puts "FizzBuzz"
+      return "FizzBuzz"
 
     elsif remainder1 == 0 && remainder2 != 0
       puts "Fizz"
@@ -14,5 +14,5 @@ def fizzbuzz(num)
     else
       return nil
     end
-
+    
 end
