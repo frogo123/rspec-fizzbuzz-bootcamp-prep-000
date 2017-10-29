@@ -4,17 +4,15 @@ def fizzbuzz(num)
 
     if remainder1 == 0 && remainder2 == 0
       puts "FizzBuzz"
+
+    elsif remainder1 == 0 && remainder2 != 0
+      puts "Fizz"
+
+    elsif remainder1 != 0 && remainder2 == 0
+      puts "Buzz"
+
+    else
+      return nil
     end
-
-  elsif remainder1 == 0 && remainder2 != 0
-    puts "Fizz"
-  end
-
-elsif remainder1 != 0 && remainder2 == 0
-  puts "Buzz"
-end
-
-else
-  return nil
-end
+    
 end
